@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules/
+
+# Editor
+.vscode/
+
+# Build directory
+build/
+
+.DS_Store
+.clasp.json

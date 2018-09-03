@@ -1,0 +1,16 @@
+{
+    "name": "gas_test1",
+    "description": "gas study",
+    "repository": {},
+    "devDependencies": {
+        "@types/google-apps-script": "0.0.27",
+        "cpx": "^1.5.0",
+        "tslint": "^5.11.0",
+        "typescript": "^3.0.1"
+    },
+    "scripts": {
+        "tsc": "tsc",
+        "build": "npm run tsc && cpx src/appsscript.json build",
+        "push": "clasp push"
+    }
+}
